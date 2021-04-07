@@ -1,0 +1,124 @@
+body {
+  position: relative;
+  font-family: "Caveat", cursive;
+  background-color: #e5ffff;
+}
+
+/* header */
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1;
+  width: 100%;
+  height: 10vh;
+  line-height: 10vh;
+  background-color: #b2ebf2;
+}
+header .logo > img {
+  height: 6vh;
+  color: #81b9bf;
+  vertical-align: middle;
+}
+header h1 {
+  display: inline-block;
+  margin-left: 10px;
+  font-family: "Fredoka One", cursive;
+  vertical-align: middle;
+  color: #384c4e;
+}
+
+header .col-2 {
+  text-align: center;
+}
+header a {
+  padding: 10px;
+  text-decoration: none;
+  vertical-align: middle;
+  font-weight: 700;
+  color: #384c4e;
+  background-color: #81b9bf;
+  border: 1px solid #384c4e;
+  border-radius: 5px;
+}
+header a:hover {
+  text-decoration: underline;
+  box-shadow: 2px 2px 2px #384c4e;
+}
+
+/* main */
+main {
+  margin-top: 10vh;
+}
+
+.jumbotron {
+  position: relative;
+  height: 70vh;
+  margin-bottom: 1vh;
+  background-image: linear-gradient(#b2ebf2, #e5ffff);
+}
+.jumbotron .container {
+  height: 100%;
+  border-radius: 5px;
+  background-image: url(https://source.unsplash.com/1600x900/?nature,mountain);
+  background-position: bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.jumbotron .col-6 {
+  position: absolute;
+  bottom: 2%;
+  left: 50%;
+  padding: 10px;
+  transform: translateX(-50%);
+  font-size: 40px;
+  text-align: center;
+  border-radius: 10px;
+  background-color: #81b9bfa8;
+  color: #384c4e;
+}
+
+main .gallery h2 {
+  text-align: center;
+  text-decoration: underline;
+  color: #384c4e;
+}
+
+.row {
+  padding: 30px;
+  margin-bottom: 1vh;
+  border: 1px solid #81b9bf;
+  border-radius: 10px;
+}
+
+.gallery {
+  background-image: linear-gradient(#e5ffff, #81b9bf);
+}
+.gallery .images img {
+  border-radius: 10px;
+}
+.gallery img {
+  width: 100%;
+  cursor: pointer;
+}
+
+.gallery .text p {
+  margin: 2vh 0;
+}
+.images-sm > div {
+  padding: 5px;
+}
+.images-sm img {
+  border-radius: 5px;
+}
+
+.gallery img:hover {
+  opacity: 0.9;
+  box-shadow: 5px 5px 2px #384c4e;
+}
+
+/* footer */
+footer {
+  background-color: #81b9bf;
+  height: 10vh;
+}
